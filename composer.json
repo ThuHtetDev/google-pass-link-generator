@@ -1,0 +1,21 @@
+{
+  "name": "thuhtetdev/google-pass-link-generator",
+  "description": "Google pass link generation WIP",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "GooglePassLinkGenerator\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "GooglePassLinkGenerator\\GreetingsServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  }
+}
